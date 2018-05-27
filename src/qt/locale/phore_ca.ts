@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Phore per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces CDI per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Phore per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces CDI per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus PHR de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</source>
+        <translation>CDI es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus CDI de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES PHRS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CDIS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>CDI Core</source>
+        <translation>CDI Core</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Envia monedes a una adreça Phore</translation>
+        <source>Send coins to a CDI address</source>
+        <translation>Envia monedes a una adreça CDI</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
-        <translation>&amp;Sobre Phore Core</translation>
+        <source>&amp;About CDI Core</source>
+        <translation>&amp;Sobre CDI Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Client Phore core</translation>
+        <source>CDI Core client</source>
+        <translation>Client CDI core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Phore network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Phore</numerusform><numerusform>%n connexions actives a la xarxa Phore</numerusform></translation>
+        <source>%n active connection(s) to CDI network</source>
+        <translation><numerusform>%n connexió activa a la xarxa CDI</numerusform><numerusform>%n connexions actives a la xarxa CDI</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Phore address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Phore vàlida.</translation>
+        <source>The entered address "%1" is not a valid CDI address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça CDI vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>CDI Core</source>
+        <translation>CDI Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Phore Core</source>
-        <translation>Sobre Phore Core</translation>
+        <source>About CDI Core</source>
+        <translation>Sobre CDI Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Benvingut a Phore Core.</translation>
+        <source>Welcome to CDI Core.</source>
+        <translation>Benvingut a CDI Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Phore Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Phore Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where CDI Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del CDI Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>CDI Core</source>
+        <translation>CDI Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 PHR</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 CDI</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 CDI</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PHR</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 PHR</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 CDI</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 CDI</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PHR to anonymize 10000 PHR</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 PHR per anonimitzar 10000 PHR</translation>
+        <source>This option is the quickest and will cost about ~0.025 CDI to anonymize 10000 CDI</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 CDI per anonimitzar 10000 CDI</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PHR to anonymize 10000 PHR</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 PHR per anonimitzar 10000 PHR</translation>
+        <source>This option is moderately fast and will cost about 0.05 CDI to anonymize 10000 CDI</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 CDI per anonimitzar 10000 CDI</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Phore after logging in to the system.</source>
-        <translation>Inicia Phore automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start CDI after logging in to the system.</source>
+        <translation>Inicia CDI automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>PHR:</source>
-        <translation>PHR:</translation>
+        <source>CDI:</source>
+        <translation>CDI:</translation>
     </message>
     <message>
-        <source>zPHR:</source>
-        <translation>zPHR:</translation>
+        <source>zCDI:</source>
+        <translation>zCDI:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin PHR (zPHR)</source>
-        <translation>Zerocoin PHR (zPHR)</translation>
+        <source>Zerocoin CDI (zCDI)</source>
+        <translation>Zerocoin CDI (zCDI)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPHR</source>
-        <translation>zPHR</translation>
+        <source>zCDI</source>
+        <translation>zCDI</translation>
     </message>
     <message>
-        <source>0.000 000 00 PHR</source>
-        <translation>0.000 000 00 PHR</translation>
+        <source>0.000 000 00 CDI</source>
+        <translation>0.000 000 00 CDI</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zPHR</source>
-        <translation>0 zPHR</translation>
+        <source>0 zCDI</source>
+        <translation>0 zCDI</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Phore Core is shutting down...</source>
-        <translation>Phore Core s'està tancant...</translation>
+        <source>CDI Core is shutting down...</source>
+        <translation>CDI Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore Core</translation>
+        <source>CDI Core</source>
+        <translation>CDI Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

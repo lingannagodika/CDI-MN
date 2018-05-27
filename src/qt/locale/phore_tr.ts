@@ -62,12 +62,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan Phore adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your CDI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan CDI adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your Phore addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan Phore adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your CDI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan CDI adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,15 +176,15 @@
         <translation>cüzdan şifrelemesini onayla</translation>
     </message>
     <message>
-        <source>Phore will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PHRs from being stolen by malware infecting your computer.</source>
-        <translation>Phore şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PHR'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>CDI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CDIs from being stolen by malware infecting your computer.</source>
+        <translation>CDI şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, CDI'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Cüzdanınızı şifrelemek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PHR&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CDI&lt;/b&gt;!</source>
         <translation>Dikkat! Eğer cüzdanınızı şifrelerseniz ve şifrenizi unutursanız &lt;b&gt;Tüm Pıvlerinizi kaybedersiniz&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -242,8 +242,8 @@
         <translation>&amp;BIP 38 şifrele</translation>
     </message>
     <message>
-        <source>Enter a Phore Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir Phore Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
+        <source>Enter a CDI Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>BIP 38'i kullanarak şifrelemek istediğiniz bir CDI Adresi girin. Orta kutuya bir parola girin. Şifreli özel anahtarı hesaplamak için şifreleme tuşuna basın.
 </translation>
     </message>
     <message>
@@ -251,8 +251,8 @@
         <translation>adres</translation>
     </message>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Phore adresi
+        <source>The CDI address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için CDI adresi
 </translation>
     </message>
     <message>
@@ -289,8 +289,8 @@
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Bu Phore adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>Bu CDI adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
@@ -316,12 +316,12 @@
         <translation>BIP 38 şifreli özel anahtarını girin. Orta kutuya şifreyi  girin. Özel anahtarı hesaplamak için Anahtarın Çözülmesini tıklayın. Anahtar çözüldükten sonra 'Alma Adresi'ni tıklamak, bu özel anahtarı cüzdana ekleyecektir.</translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Mesajın imzalandığı Phore adresi</translation>
+        <source>The CDI address the message was signed with</source>
+        <translation>Mesajın imzalandığı CDI adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Belirtilen Phore adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
+        <translation>Belirtilen CDI adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -613,16 +613,16 @@
         <translation>Sekme tablosu</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>CDI Core</source>
+        <translation>CDI CORE</translation>
     </message>
     <message>
-        <source>Send coins to a Phore address</source>
-        <translation>Koinleri Phore adresine gönder</translation>
+        <source>Send coins to a CDI address</source>
+        <translation>Koinleri CDI adresine gönder</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and phore: URIs)</source>
-        <translation>Ödeme talep etme (QR kodları ve phore üretir: URI'ler)</translation>
+        <source>Request payments (generates QR codes and cdi: URIs)</source>
+        <translation>Ödeme talep etme (QR kodları ve cdi üretir: URI'ler)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -637,24 +637,24 @@
         <translation>Masternodları ara</translation>
     </message>
     <message>
-        <source>&amp;About Phore Core</source>
+        <source>&amp;About CDI Core</source>
         <translation>Pıvx core Hakkında</translation>
     </message>
     <message>
-        <source>Show information about Phore Core</source>
+        <source>Show information about CDI Core</source>
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for Phore</source>
-        <translation>Phore için yapılandırma seçeneklerini değiştirin</translation>
+        <source>Modify configuration options for CDI</source>
+        <translation>CDI için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
-        <source>Sign messages with your Phore addresses to prove you own them</source>
-        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı Phore adresleriyle imzalayın</translation>
+        <source>Sign messages with your CDI addresses to prove you own them</source>
+        <translation>Sahip olduğunuzu kanıtlamak için mesajlarınızı CDI adresleriyle imzalayın</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Phore addresses</source>
-        <translation>Belirtilen Phore adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
+        <source>Verify messages to ensure they were signed with specified CDI addresses</source>
+        <translation>Belirtilen CDI adresleriyle imzalanmış olduklarından emin olmak için iletileri doğrulayın</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -686,8 +686,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a Phore: URI or payment request</source>
-        <translation>Bir Phore: URI veya ödeme isteği açın</translation>
+        <source>Open a CDI: URI or payment request</source>
+        <translation>Bir CDI: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,12 +698,12 @@
         <translation>Kaşif penceresini engelle</translation>
     </message>
     <message>
-        <source>Show the Phore Core help message to get a list with possible Phore command-line options</source>
-        <translation>Olası Phore komut satırı seçeneklerine sahip bir liste almak için Phore Core yardım mesajını gösterin</translation>
+        <source>Show the CDI Core help message to get a list with possible CDI command-line options</source>
+        <translation>Olası CDI komut satırı seçeneklerine sahip bir liste almak için CDI Core yardım mesajını gösterin</translation>
     </message>
     <message>
-        <source>Phore Core client</source>
-        <translation>Phore Core istemci</translation>
+        <source>CDI Core client</source>
+        <translation>CDI Core istemci</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -834,8 +834,8 @@ Adres: %4</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (phore.conf).</source>
-        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (phore.conf).
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (cdi.conf).</source>
+        <translation>Tüm işlemler gösterilmez. Tüm işlemleri görmek için yapılandırma dosyasında txindex = 1 ayarlamanız gerekir (cdi.conf).
 </translation>
     </message>
 </context>
@@ -1121,8 +1121,8 @@ Adres: %4</translation>
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>CDI Core</source>
+        <translation>CDI CORE</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -1144,16 +1144,16 @@ Adres: %4</translation>
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Phore Core.</source>
-        <translation>Phore Core'a hoşgeldiniz.</translation>
+        <source>Welcome to CDI Core.</source>
+        <translation>CDI Core'a hoşgeldiniz.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Varsayılan veri dosyasını kullanınız</translation>
     </message>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>CDI Core</source>
+        <translation>CDI CORE</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1508,8 +1508,8 @@ Adres: %4</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Phore address to sign the message with</source>
-        <translation>Ile mesaj imzalamak için Phore adresi
+        <source>The CDI address to sign the message with</source>
+        <translation>Ile mesaj imzalamak için CDI adresi
 </translation>
     </message>
     <message>
@@ -1538,17 +1538,17 @@ Adres: %4</translation>
 </translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Phore address</source>
-        <translation>Bu Phore adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
+        <source>Sign the message to prove you own this CDI address</source>
+        <translation>Bu CDI adresinin sahibi olduğunuzu kanıtlamak için mesajı imzala
 </translation>
     </message>
     <message>
-        <source>The Phore address the message was signed with</source>
-        <translation>Mesajın imzalandığı Phore adresi</translation>
+        <source>The CDI address the message was signed with</source>
+        <translation>Mesajın imzalandığı CDI adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Phore address</source>
-        <translation>Belirtilen Phore adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
+        <source>Verify the message to ensure it was signed with the specified CDI address</source>
+        <translation>Belirtilen CDI adresi ile imzalanmış olduğundan emin olmak için iletiyi doğrulayın</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1587,8 +1587,8 @@ Adres: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Phore Core</source>
-        <translation>Phore CORE</translation>
+        <source>CDI Core</source>
+        <translation>CDI CORE</translation>
     </message>
     </context>
 <context>
@@ -1694,7 +1694,7 @@ Adres: %4</translation>
     </message>
     </context>
 <context>
-    <name>phore-core</name>
+    <name>cdi-core</name>
     <message>
         <source>Error</source>
         <translation>hata</translation>

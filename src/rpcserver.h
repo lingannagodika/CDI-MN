@@ -126,7 +126,7 @@ public:
 };
 
 /**
- * Phore RPC command dispatcher.
+ * CDI RPC command dispatcher.
  */
 class CRPCTable
 {
