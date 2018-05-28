@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (     0, uint256("2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+    (     0, uint256("3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -65,7 +65,7 @@ static const Checkpoints::CCheckpointData data = {
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
-    boost::assign::map_list_of(0, uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+    boost::assign::map_list_of(0, uint256("0x3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1504595227,
@@ -73,7 +73,7 @@ static const Checkpoints::CCheckpointData dataTestnet = {
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
-    boost::assign::map_list_of(0, uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+    boost::assign::map_list_of(0, uint256("0x3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
     1504595227,
@@ -149,9 +149,9 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1527461817;
         genesis.nBits = 0x207fffff;;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 249;
         //Genesis code
-	if (true && genesis.GetHash() != hashGenesisBlock)
+ /*	if (true && genesis.GetHash() != hashGenesisBlock)
             {
             printf("Searching for genesis block...\n");
             uint256 hashTarget = uint256().SetCompact(genesis.nBits);
@@ -177,10 +177,10 @@ public:
             printf("genesis.nNonce = %u \n", genesis.nNonce);
             printf("genesis.gethash = %s\n", genesis.GetHash().ToString().c_str());
             printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str());
-        }
+        } */
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
+        assert(genesis.hashMerkleRoot == uint256("0xf935a771f904aa6a34669ed4941eee9d6ebf899eab913527697cef8c147ce714"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -244,7 +244,7 @@ public:
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
         vAlertPubKey = ParseHex("04a13e8bab566e38b3f59bb3f7441245b64f9b3329ba2a99c0d6e0eb01b961fe4d89b70df57d495d727298546253c9a8f39814bb19b03cf32ee626387e767aa011");
-        nDefaultPort = 11773;
+        nDefaultPort = 11777;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
@@ -260,15 +260,15 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1527461817;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 249;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+        assert(hashGenesisBlock == uint256("0x3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet cdi addresses start with 'x' or 'y'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28); // Testnet cdi addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet cdi script addresses start with '8' or '9'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         // Testnet cdi BIP32 pubkeys start with 'DRKV'
@@ -326,11 +326,11 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1527461817;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12345;
+        genesis.nNonce = 249;
 
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 11773;
-        assert(hashGenesisBlock == uint256("0x2b1a0f66712aad59ad283662d5b919415a25921ce89511d73019107e380485bf"));
+        nDefaultPort = 11766;
+        assert(hashGenesisBlock == uint256("0x3440fee3eaf2da67a212df435e96bdf0a65e649a00f6880592e4798ff9dcdab5"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
@@ -359,7 +359,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 11774;
+        nDefaultPort = 11763;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 
