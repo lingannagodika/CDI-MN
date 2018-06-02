@@ -28,7 +28,7 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/cdiproject/cdi.git"
+- "url": "https://github.com/CryptoGeekJD/CDI.git"
   "dir": "cdi"
 files:
 - "MacOSX10.11.sdk.tar.gz"

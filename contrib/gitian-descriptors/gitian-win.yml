@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/cdiproject/cdi.git"
+- "url": "https://github.com/CryptoGeekJD/CDI.git"
   "dir": "cdi"
 files: []
 script: |
