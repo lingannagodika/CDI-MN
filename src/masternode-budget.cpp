@@ -37,10 +37,10 @@ CAmount GetBudgetSystemCollateralAmount(int nHeight) {
 int GetBudgetPaymentCycleBlocks()
 {
     // Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
-    if (Params().NetworkID() == CBaseChainParams::MAIN) return 43200;
+    if (Params().NetworkID() == CBaseChainParams::MAIN) return 576;
     //for testing purposes
 
-    return 144; //ten times per day
+    return 576; //ten times per day
 }
 
 bool IsBudgetCollateralValid(uint256 nTxCollateralHash, uint256 nExpectedHash, std::string& strError, int64_t& nTime, int& nConf)
@@ -499,9 +499,13 @@ void CBudgetManager::CheckAndRemove()
 void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, bool fProofOfStake)
 {
     LOCK(cs);
-
+	LogPrintf("$$$$---masternode CBUDGETManger fllblockpayee started..\n");//1
     CBlockIndex* pindexPrev = chainActive.Tip();
-    if (!pindexPrev) return;
+    //if (!pindexPrev) return;
+	 if (!pindexPrev) {
+    	LogPrint("masternode","in fillblockpayee !pindex if true");
+    	LogPrintf("$$$$---masternode CBUDGETManger fllblockpayee pindexPrev false return false..\n");//2
+    	return;}
 
     int nHighestCount = 0;
     CScript payee;
@@ -523,9 +527,12 @@ void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, b
     }
 
     CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
-
+	LogPrintf("masternode before fproofofstake if condiyion.\n");//3
     if (fProofOfStake) {
+		LogPrintf("masternode if fprrofstake if true");//4
+		LogPrintf("masternode  nHighestCount value %d\n",nHighestCount);//5
         if (nHighestCount > 0) {
+			LogPrintf(" fProofOfStake true masternode hihestcount>0 if true");//6
             unsigned int i = txNew.vout.size();
             txNew.vout.resize(i + 1);
             txNew.vout[i].scriptPubKey = payee;
@@ -535,15 +542,19 @@ void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, b
             ExtractDestination(payee, address1);
             CBitcoinAddress address2(address1);
             LogPrint("masternode","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld, nHighestCount = %d\n", address2.ToString(), nAmount, nHighestCount);
+			LogPrintf("masternode CBudgetManager::FillBlockPayee -  Budget payment,happend successssssssssssssssssss   \n");//7
         }
         else {
             LogPrint("masternode","CBudgetManager::FillBlockPayee - No Budget payment, nHighestCount = %d\n", nHighestCount);
+			LogPrintf("masternode CBudgetManager::FillBlockPayee - No Budget payment, nHighestCount = %d\n", nHighestCount);//8
         }
     } else {
+		LogPrintf("masternode if fprrofstake condition false");//9
         //miners get the full amount on these blocks
         txNew.vout[0].nValue = blockValue;
-
+		LogPrintf("masternode before nhifhets count >0 if  nHighestCount value %d\n",nHighestCount);//10
         if (nHighestCount > 0) {
+			LogPrintf("masternodeif nhieght >0 if true");//11
             txNew.vout.resize(2);
 
             //these are super blocks, so their value can be much larger than normal
@@ -555,7 +566,10 @@ void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, b
             CBitcoinAddress address2(address1);
 
             LogPrint("masternode","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld\n", address2.ToString(), nAmount);
-        }
+			LogPrintf("masternode CBudgetManager::FillBlockPayee -  Budget payment,happend successssssssssssssssssss   \n");//12
+        }else{
+			 LogPrintf("nHighestCount <0 so else condition nothing payment happends--failed ");//13
+		}
     }
 }
 

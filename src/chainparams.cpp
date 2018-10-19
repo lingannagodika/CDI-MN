@@ -121,7 +121,7 @@ public:
         nMaxMoneyOut = 1000000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100;
+        nLastPOWBlock = 1500;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 90000;
         nBlockEnforceSerialRange = 90003; //Enforce serial range starting this block
@@ -251,7 +251,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // CDI: 1 day
         nTargetSpacing = 1 * 10;  // CDI: 1 minute
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 1500;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
